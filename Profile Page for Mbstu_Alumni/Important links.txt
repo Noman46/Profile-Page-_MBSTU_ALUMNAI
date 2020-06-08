@@ -1,0 +1,23 @@
+How t select max date from colections of date.
+
+https://stackoverflow.com/questions/8470311/get-the-latest-date-from-grouped-mysql-data
+
+--------------------------------------------------------------------------------------------
+Hibernate Query Documentation
+https://docs.jboss.org/hibernate/orm/3.2/api/org/hibernate/Query.html
+
+https://www.youtube.com/watch?v=VVufLyUkyVE
+
+-------------------------
+Comments and like
+https://stackoverflow.com/questions/52843234/best-approach-for-implementing-comments-and-likes-system-like-instagram-or-twitt
+
+
+https://stackoverflow.com/questions/8112831/implementing-comments-and-likes-in-database
+
+youtube for LIkes and Comeents in Java:  https://www.youtube.com/watch?v=5PNUuKlUzd8
+
+Instagram System Design: 
+https://www.youtube.com/watch?v=QmX2NPkJTKg
+
+https://dba.stackexchange.com/questions/174878/how-to-store-likes-and-comments-of-posts-in-database

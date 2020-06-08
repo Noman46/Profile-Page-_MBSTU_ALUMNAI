@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<script src = "jquery-1.12.4.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			
+			$('.btn').click(function(){
+				
+				$('#post').slideToggle("slow");
+				$('#btnPost').toggle();
+				var buttonValue = $('#postClose').html();
+				//alert(buttonValue);
+				if(buttonValue === "Share Your Thoughts")
+				{
+					$('#postClose').html("Close");
+				}
+				if(buttonValue === "Close")
+				{
+					$('#postClose').html("Share Your Thoughts");
+				}
+
+			})
+		});
+	</script>
+</head>
+<body>
+
+
+<div class="header1">
+	<div class="shadow">
+		<div id="logo"><h1>
+		<span>M</span> <span>B</span> <span>S</span> <span>T</span> <span>U</span>
+		<span>-</span> <span>A</span> <span>L</span> <span>U</span> <span>M</span>
+		<span>N</span> <span>I</span>
+	</h1></div>
+	</div>
+	
+	<div id="searcharea">
+		<input type="text" name="" placeholder="Search here" id="searchbox">
+	</div>
+	<div id="profileIcon">
+		<a href="settings.html"><i class="fa fa-user" style="font-size:30px"></i></a>	
+	</div>
+	<div id="gearicon">
+		<i class="fa fa-gear" style="font-size:30px"></i>
+	</div>
+	<div id="logouticon">
+		<i class="fa fa-power-off" style="font-size:30px;"></i>
+	</div>
+
+</div>
+
+<div class= "leftbar">
+	<div id="left1"></div>
+	<div id="left2"></div>
+	<div id="left3"></div>;
+	<div id="left4"></div>
+</div>
+
+
+<div class="postButton">
+  <button class="btn" id="postClose">Share Your Thoughts</button>
+  <button id="btnPost" class="btn" style="display: none;">Post</button> 	
+</div>
+<div id="post">
+	<textarea id="postArea" rows="10" cols="106"></textarea>
+</div>
+	
+<div class="messagediv">
+
+	<div class="innerMessage">
+		
+	<div id="profileImage">
+		
+	</div>
+	<div id="profileName">
+		
+	</div>
+	<div id="profileMessage">
+		
+	</div>
+	<div id="likeButton">
+		<button class="buttonLike">Like</button>
+	</div>
+	<div id="commentButton">
+		<button class="buttonCmnt">Comment</button>
+	</div>
+
+	</div>
+</div>
+<div class="messagediv">
+
+	<div class="innerMessage">
+		
+	<div id="profileImage">
+		
+	</div>
+	<div id="profileName">
+		
+	</div>
+	<div id="profileMessage">
+		
+	</div>
+	<div id="likeButton">
+		<button class="buttonLike">Like</button>
+	</div>
+	<div id="commentButton">
+		<button class="buttonCmnt">Comment</button>
+	</div>
+
+	</div>
+</div>
+<div></div>
+
+
+
+<div class= "rightbar">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Each Funtion</title>
+	<script src = "jquery-1.12.4.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#Hit').click(function(){
+				
+				$('li').each(function(index){
+					if($(this).text() == 'Css'){
+					return false
+				}
+				alert('Index is: '+index +' '+$(this).text());
+			});})
+			
+		});
+	</script>
+</head>
+<body>
+<h1>List of languages I Know a lil bit</h1>
+<ul>
+	<li>Java</li>
+	<li>JavaScript</li>
+	<li>Jquery</li>
+	<li>Css</li>
+	<li>HTML</li>
+	<li>....</li>
+</ul>
+<button id = "Hit">Hit Me</button>
+</body>
+</html>

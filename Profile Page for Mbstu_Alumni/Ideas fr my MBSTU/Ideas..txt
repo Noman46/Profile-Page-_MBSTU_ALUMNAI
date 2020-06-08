@@ -1,0 +1,11 @@
+1.student can share there univeristy lifes memries with imag. when one shares 
+other student will have this notification.
+
+2. add favourite cout in personal information page
+
+3. If student check no hobbies I can suggest some of students who has hobbies. Like thus they can know each other and can help to build and improve hobbies
+4. If checked no blog/or vlog we can suggest him to write blogs in our page.
+5. I can attached a site where student can write there poem and stories.
+6. What if student want to visit another students profile.
+as clicked on the name, it will be showing a visiting card with menues. To make it,
+take help from onlinetutorial youtube channel
